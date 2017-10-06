@@ -1,0 +1,31 @@
+# Site settings
+title: Budding0828
+email: "569895841@qq.com"
+description: "Wengyue's personal blog"
+baseurl: ""
+url: "http://budding0828.info"
+permalink: /:year/:title
+
+
+# Social account
+twitter:  
+weibo:    Be_better 翁跃
+github:   Budding0828
+codepen:  
+# dribbble: username
+
+
+# Comment
+# disqus_shortname:
+
+
+# Google Analytics
+#google_analytics: UA-60830414-1
+
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+gems:
+  - jekyll-sitemap
