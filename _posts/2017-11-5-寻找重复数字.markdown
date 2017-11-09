@@ -2,8 +2,8 @@
 layout: post
 title:  "寻找重复的数"
 date:   2017-11-05 10:10:00
-categories: algorithm
-tags: algorithm
+categories: [algorithm , leetcode]
+tags: [algorithm , leetcode]
 ---
 
 # 寻找重复的数类型题目

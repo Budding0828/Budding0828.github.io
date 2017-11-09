@@ -2,8 +2,8 @@
 layout: post
 title:  "单调栈"
 date:   2017-11-06 10:10:00
-categories: algorithm
-tags: algorithm
+categories: [algorithm , leetcode]
+tags: [algorithm , leetcode]
 ---
 
 
