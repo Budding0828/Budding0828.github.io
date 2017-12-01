@@ -2,8 +2,8 @@
 layout: post
 title:  "CCPSO2
 date:   2017-12-1 10:10:00
-categories: [粒子群优化算法]
-tags: [粒子群优化算法, CCPSO2]
+categories: [pso]
+tags: [pso , CCPSO2]
 
 ---
 
