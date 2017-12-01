@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "CCPSO2
+date:   2017-12-1 10:10:00
+categories: [粒子群优化算法]
+tags: [粒子群优化算法, CCPSO2]
+
+---
+
+# CCPSO2
+CCPSO2 属于粒子群优化算法中的一种，是CCPSO的优化版本，其核心依然为朴素的PSO
+。其显著的特性主要有一下几点：
+
+## 1.random group 
+分组规模不再是固定的，而是随机从一个原先设计的集合（S）中选取，每次迭代若无更新便重新分组。这样做的好处是可以使有关联的两个纬度的变量有更大的可能性在一起。
+![random_group](https://github.com/Budding0828/Budding0828.github.io/assets/img/random_group.png)
+
+## 2.Cauchy and Gaussian-Based PSO
+通过高斯/柯西分布两个来共同决定下一次迭代的位置，可以更好地探寻搜索空间。既可以全局搜寻，又可以在某区域搜寻。
+![gc](https://github.com/Budding0828/Budding0828.github.io/assets/img/gc.png)
+
+## 3.ring topology-based lbest
+降低收敛速度，可以保持更好的分布。
+
+## 算法流程
+![process](https://github.com/Budding0828/Budding0828.github.io/assets/img/process.png)
+
+算法具体实现情况以及实验结果可以从[github主页](https://github.com/Budding0828/CCPSO2)上下载，欢迎大家指出错误和不足。
+引用请注明出处或联系作者。

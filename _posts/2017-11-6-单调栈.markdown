@@ -17,7 +17,7 @@ tags: [algorithm , leetcode]
 Given a sequence of n integers a1, a2, ..., an, a 132 pattern is a subsequence ai, aj, ak such that i < j < k and ai < ak < aj. Design an algorithm that takes a list of n numbers as input and checks whether there is a 132 pattern in the list.
 
 ## 解决代码：
-```
+```Java
 public class Solution {
     public boolean find132pattern(int[] nums) {
         int len = nums.length;
@@ -39,7 +39,7 @@ public class Solution {
 [来源](http://acm.hdu.edu.cn/showproblem.php?pid=1506)
 
 ## 解决代码：
-```
+```C++
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -85,7 +85,7 @@ int main(){
 其实我们应该维护一个相邻两顶点间斜率绝对值单调递增的栈，套路还是单调栈的套路，不过是进出栈的条件变成了斜率的相对大小，然后就是把询问也当建筑物放进去会使代码好写很多，对于每个点记录其左边和右边能看到的最高的建筑物，最后转化一下按询问顺序输出就行了。
 
 ## 解决代码：
-```
+```C++
 #include<bits/stdc++.h>
 #define ll long long
 #define pi acos(-1.0)
@@ -170,7 +170,7 @@ int main()
 
 ## 题目：乱发结
 ## 解决代码：
-```
+```C++
 #include <iostream>
 #include <algorithm>
 #include <string>

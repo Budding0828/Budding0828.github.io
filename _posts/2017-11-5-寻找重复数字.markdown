@@ -25,7 +25,7 @@ tags: [algorithm , leetcode]
 则有：A^(A^B)  = B ；(A^B)^B=A。
 A即为所求。
 
-```
+```Java
 public static void find(int[] arr, int n){  
     int result = 0;  
     for(int i=0 ; i<n+1; i++){  
@@ -49,7 +49,7 @@ public static void find(int[] arr, int n){
 即 数组为 0000 0000 0000 0000 0000 0000 0000 0300
 所有位对3取余，结果一定全为0。
 
-```
+```Java
 public static   int singleNumber(int[] A) {
     int bits[] = new int[32]; //定义一个32位数组       
     for (int i = 0; i < bits.length; i++) {
@@ -76,7 +76,7 @@ public static   int singleNumber(int[] A) {
 
 [参考博客](http://blog.csdn.net/morewindows/article/details/8212446)
 
-```
+```C++
 int FindRepeatNumberInArray(int *a, int n)  
 {  
     for(int i = 0; i < n; i++)  
