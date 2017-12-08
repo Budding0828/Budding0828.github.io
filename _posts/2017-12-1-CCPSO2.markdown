@@ -1,10 +1,10 @@
 
 ---
 layout: post
-title:  "CCPSO2"
-date:   2017-12-1 10:10:00
-categories: [algorithm , pso]
-tags: [algorithm , CCPSO2]
+title:  "CCPSO2 粒子群优化算法"
+date:   2017-12-17 10:10:00
+categories: [algorithm , ccpso2]
+tags: [algorithm , ccpso2]
 
 ---
 
