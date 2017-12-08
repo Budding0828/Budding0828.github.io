@@ -2,8 +2,8 @@
 layout: post
 title:  "ccpso2 "
 date:   2017-11-10 10:10:00
-categories: [algorithm ]
-tags: [algorithm ]
+categories: [algorithm , ccpso2]
+tags: [algorithm , ccpso2]
 
 ---
 
