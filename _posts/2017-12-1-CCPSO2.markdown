@@ -1,12 +1,13 @@
 
 ---
 layout: post
-title:  "CCPSO2 粒子群优化算法"
-date:   2017-12-17 10:10:00
-categories: [algorithm , ccpso2]
-tags: [algorithm , ccpso2]
+title:  "ccpso2 "
+date:   2017-11-10 10:10:00
+categories: [algorithm ]
+tags: [algorithm ]
 
 ---
+
 
 # CCPSO2
 CCPSO2 属于粒子群优化算法中的一种，是CCPSO的优化版本，其核心依然为朴素的PSO
